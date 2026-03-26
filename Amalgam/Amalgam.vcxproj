@@ -1479,7 +1479,7 @@
     <None Include="cpp.hint" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
+  <ItemGroup Condition="$(Configuration.Contains('Freetype'))">
     <Library Include="include\freetype\freetype.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
