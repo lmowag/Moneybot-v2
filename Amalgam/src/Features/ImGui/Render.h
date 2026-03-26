@@ -1,5 +1,7 @@
 #pragma once
+#ifndef AMALGAM_CUSTOM_FONTS
 #define AMALGAM_CUSTOM_FONTS
+#endif
 #include "../../SDK/SDK.h"
 #include <imgui/imgui.h>
 #include <imgui/imgui_impl_dx9.h>
